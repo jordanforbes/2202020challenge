@@ -1,0 +1,21 @@
+public class challengeThree {
+    Account myAcct;
+    
+    public void SetAccount(){
+        myAcct = new Account();
+        myAcct.name = 'steve';
+        myAcct.AnnualRevenue = 1000;
+        myAcct.Description = 'my description';
+    }
+    
+    public void GetAccount(){
+        system.debug(myAcct.name+' '+myAcct.AnnualRevenue+' '+myAcct.Description);
+    }
+    
+    /*
+    challengeThree steve = new challengeThree();
+	steve.SetAccount();
+	steve.GetAccount();
+	*/
+
+}

@@ -1,0 +1,23 @@
+public class challengeOne {
+    Integer myInt;
+    String myStr;
+    Account myAcct;
+    
+    public void SetValues(){
+        myInt = 1;
+        myStr ='hello world';
+        myAcct = new Account();
+        myAcct.Name = 'Joe';
+    }
+    
+    public void GetValues(){
+        system.debug(myInt+' '+myStr+' '+myAcct);
+    }
+
+}
+
+/* debug >> open execute anonymous window 
+challengeOne joe = new challengeOne();
+joe.SetValues();
+joe.GetValues();
+*/

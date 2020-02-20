@@ -1,0 +1,46 @@
+public class challengeTwo {
+    
+    public void ForLoop(){
+        List<Integer> intList = new List<Integer>{1,2,3,4,5,6,7,8,9,10};
+        
+            for(integer i = 0; i < intList.size(); i++){
+                system.debug('ForLoop '+intList[i]);
+            }
+    }
+    
+    /*
+	execute anonymous: 
+
+	challengeTwo bob = new challengeTwo();
+	bob.ForLoop();
+	bob.WhileLoop();
+	bob.Iffy(1,0);
+	bob.Iffy(0,1);
+	bob.Iffy(0,0);
+*/
+    
+    public void WhileLoop(){
+        integer i = 0;
+        
+        while(i<10){
+        system.debug('whileLoop '+i);
+        i++;
+        }
+        
+    }
+    
+    public void Iffy(Integer x, Integer y){
+      
+        
+        if(x == 1){
+            system.debug('x is true');
+        }else if(y == 1){
+            system.debug('y is true');
+        }else{
+            system.debug('both are false');
+        }
+            
+        
+    }
+
+}
